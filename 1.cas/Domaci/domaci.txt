@@ -1,0 +1,42 @@
+- Zadatak 1: Provera tipa podataka
+Deklariši sledeće promenljive i ispiši njihov tip pomoću typeof:
+
+ime sa vrednošću "Ana"
+godine sa vrednošću 25
+jeStudent sa vrednošću false
+dugBroj sa vrednošću BigInt(9876543210123456789)
+nedefinisanaPromenljiva bez dodeljene vrednosti
+praznaVrednost sa vrednošću null
+
+- Zadatak 2: Manipulacija stringovima
+Neka korisnik unese svoje ime i prezime (pomoću document.write()), zatim sastavi 
+i ispiši puno ime koristeći template literals (``).
+
+- Zadatak 3: Matematičke operacije
+Deklariši dve promenljive, a i b, i dodeli im brojevne vrednosti. Izračunaj i 
+ispiši u konzoli zbir, razliku, proizvod i količnik ovih brojeva.
+
+Primer: 
+a = 15, b = 3  
+Zbir: 18  
+Razlika: 12  
+Proizvod: 45  
+Količnik: 5 
+
+- Zadatak 4: Popravi greške u kodu
+U sledećem kodu se nalazi nekoliko grešaka. Ispravi ih i objasni šta je bilo pogrešno:
+
+Kod:
+
+let godine;
+godine = 18;
+
+let punoIme;
+punoIme = Marko Markovic;
+
+const brojTelefona;
+brojTelefona = "065123456";
+
+- Zadatak Opcioni za Samostalno snalazenje sa internetom: Rad sa Boolean tipom
+Deklariši promenljivu imaDozvolu i dodeli joj vrednost true ili false.
+Ako je vrednost true, ispiši "Korisnik sme da vozi.", inače ispiši "Korisnik nema dozvolu za vožnju.".
