@@ -1,0 +1,65 @@
+Zadatak 1: Kreiranje i prikaz niza
+Kreiraj niz boje sa tri boje po tvom izboru.
+Prikaži prvu i poslednju boju u konzoli.
+Dodaj novu boju na treće mesto u nizu.
+Prikaži ceo niz u konzoli.
+
+Zadatak 2: Manipulacija objektima
+Kreiraj objekat telefon sa sledećim svojstvima:
+marka: "Samsung"
+model: "Galaxy S23"
+godiste: 2023
+Prikaži marku telefona u alertu.
+Promeni model u "Galaxy S24".
+Dodaj svojstvo boja sa vrednošću "crna".
+Prikaži ceo objekat u konzoli.
+
+Zadatak 3: Niz brojeva i računske operacije
+Kreiraj niz brojevi sa vrednostima 10, 20, 30, 40.
+Saberi prvi i poslednji broj i prikaži rezultat u alertu.
+Oduzmi drugi broj od trećeg i prikaži rezultat u dokumentu (document.write).
+Prikaži ceo niz u konzoli.
+
+Zadatak 4: Pronadji greske u kodu
+4.1:
+var auto = {
+    marka: "Audi",
+    model: "A4",
+    godiste: 2022
+};
+
+console.log(marka);
+console.log(auto[model]);
+
+auto.gorivo = "benzin;
+console.log(auto);
+
+4.2:
+var knjiga = {
+    naslov: "Hari Poter",
+    autor = "J.K. Rowling",
+    godinaIzdanja: 1997
+}
+
+console.log(naslov);
+console.log(autor);
+console.log(knjiga.godinaizdanja);
+
+knjiga.brojStranica = 500;
+console.log("Knjiga ima " + brojStranica + " stranica.");
+
+var zanrovi = ["fantastika", "avantura"];
+zanrovi.2 = "misterija";
+
+console.log(zanrovi[2]);
+console.log(zanrovi);
+
+
+Zadatak 5 (Opcioni): Objekat u nizu
+Kreiraj niz osobe sa jednim objektom koji sadrži sledeća svojstva:
+ime: "Milan"
+prezime: "Jovanović"
+godine: 25
+Prikaži ime iz objekta koji se nalazi u nizu (osobe[0]).
+Dodaj novo svojstvo grad sa vrednošću "Novi Sad".
+Prikaži ceo niz u konzoli.
