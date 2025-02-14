@@ -1,0 +1,40 @@
+Zadatak 1 – Rad sa aritmetičkim operatorima
+Deklariši tri promenljive sa brojevima po izboru.
+Izračunaj i prikaži u konzoli:
+
+zbir prve i druge promenljive
+razliku treće i prve promenljive
+proizvod druge i treće promenljive
+količnik prve i treće promenljive
+kvadrat druge promenljive
+ostatak pri deljenju treće promenljive prvom
+
+Zadatak 2 – Operatori dodele vrednosti
+Deklariši promenljivu broj i postavi njenu početnu vrednost na 10.
+Zatim pomoću operatora dodele vrednosti (+=, -=, *=, /=, %=, **=) menjaj njenu vrednost i svaki put prikaži rezultat u konzoli.
+
+Zadatak 3 – String operatori
+Deklariši dve promenljive ime i prezime i dodeli im svoje ime i prezime.
+Kombinacijom string operatora (+) prikaži u konzoli i u document.write() sledeću rečenicu:
+"Moje ime je [ime] [prezime] i učim JavaScript."
+
+Zadatak 4 – Operatori poređenja
+Deklariši dve promenljive sa numeričkim vrednostima i pomoću operatora poređenja (==, ===, !=, !==, >, <, >=, <=) prikaži u konzoli rezultate poređenja tih vrednosti.
+
+Zadatak 5 – Logički operatori
+Deklariši tri promenljive:
+
+godine (broj godina korisnika)
+imaDozvolu (true ili false, da li korisnik ima vozačku dozvolu)
+imaAuto (true ili false, da li korisnik poseduje auto)
+Na osnovu ovih vrednosti pomoću logičkih operatora prikaži u konzoli:
+
+Da li korisnik može legalno da vozi (godine >= 18 && imaDozvolu)
+Da li korisnik može sam da vozi auto (godine >= 18 && imaDozvolu && imaAuto)
+Da li korisnik treba da iznajmi auto (!imaAuto)
+Da li korisnik ispunjava bar jedan uslov da može da vozi (godine >= 18 || imaDozvolu)
+Koristiti if i else ili ternary operator(Ko uradi bice mu lak cas u ponedeljak)
+
+Zadatak 6 – Tip operatori
+Deklariši nekoliko promenljivih različitih tipova (string, broj, boolean, niz, objekat).
+Koristi typeof i instanceof operatore da prikažeš tip svake promenljive u konzoli.
