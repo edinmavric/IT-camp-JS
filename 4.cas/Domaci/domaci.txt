@@ -1,0 +1,43 @@
+---
+
+Zadatak 1 – Provera da li je broj deljiv sa 3 i/ili 5
+Neka korisnik unese broj.
+
+Ako je broj deljiv sa 3 i 5, prikaži u konzoli: "Broj je deljiv i sa 3 i sa 5."
+Ako je deljiv samo sa 3, prikaži: "Broj je deljiv sa 3, ali ne i sa 5."
+Ako je deljiv samo sa 5, prikaži: "Broj je deljiv sa 5, ali ne i sa 3."
+Ako nije deljiv ni sa 3 ni sa 5, prikaži: "Broj nije deljiv ni sa 3 ni sa 5."
+
+---
+
+Zadatak 2 – Određivanje najvećeg od tri broja
+Deklariši tri promenljive i dodeli im različite brojeve.
+Prikaži u konzoli koji broj je najveći.
+
+---
+
+Zadatak 3 – Kategorija temperature
+Deklariši promenljivu temperatura.
+Na osnovu vrednosti, prikaži sledeće:
+
+"Veoma hladno" ako je temperatura manja od 0°C.
+"Hladno" ako je između 0°C i 10°C.
+"Prohladno" ako je između 10°C i 20°C.
+"Toplo" ako je između 20°C i 30°C.
+"Vruće" ako je preko 30°C.
+
+---
+
+Zadatak 4 – Da li je godina prestupna?
+Deklariši promenljivu godina i dodeli joj neku vrednost.
+Godina je prestupna ako je deljiva sa 4, ali nije deljiva sa 100, osim ako je deljiva sa 400.
+Prikaži u konzoli da li je godina prestupna ili nije.
+
+---
+
+Zadatak 5 – Radno vreme prodavnice
+Deklariši promenljivu sat i dodeli joj broj između 0 i 24.
+Ako je prodavnica otvorena između 9 i 21, prikaži "Prodavnica je otvorena.", 
+inače "Prodavnica je zatvorena."
+
+---
