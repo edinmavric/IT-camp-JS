@@ -1,0 +1,64 @@
+Zadatak 1 – Automatski menjač brzina
+Unesi brzinu automobila (km/h). Na osnovu unete brzine, menjač treba da prebaci u odgovarajući stepen prenosa:
+
+0 - 10 km/h → "Prva brzina"
+11 - 30 km/h → "Druga brzina"
+31 - 50 km/h → "Treća brzina"
+51 - 80 km/h → "Četvrta brzina"
+81+ km/h → "Peta brzina"
+Ako korisnik unese negativnu brzinu, ispiši: "Brzina ne može biti negativna!".
+
+---
+
+Zadatak 2 – Konvertor novca
+Unesi iznos u dinarima i valutu u koju želi da ga konvertuje:
+
+EUR → 1 EUR = 117 RSD
+USD → 1 USD = 108 RSD
+CHF → 1 CHF = 123 RSD
+Program treba da prikaže iznos u odabranoj valuti.
+Ako korisnik unese nepoznatu valutu, ispiši: "Nepoznata valuta!".
+
+---
+
+Zadatak 3 – Najbliži paran broj
+Unesi broj. Program treba da prikaže:
+
+Sam broj ako je paran.
+Najbliži veći paran broj ako je neparan.
+Na primer:
+
+Unos: 6 → "Najbliži paran broj je 6."
+Unos: 7 → "Najbliži paran broj je 8."
+
+---
+
+Zadatak 4 – Kalkulator bodova u testu
+Unesi broj tačnih odgovora na testu i ukupan broj pitanja.
+Prikaži procenat tačnih odgovora i odgovarajući komentar:
+
+0 - 50% → "Morate više vežbati!"
+51 - 75% → "Dobar rezultat!"
+76 - 90% → "Odličan rezultat!"
+91 - 100% → "Perfektno!"
+Ako korisnik unese vrednosti koje nisu validne, prikaži "Unesite ispravan broj tačnih odgovora i ukupan broj pitanja!".
+
+---
+
+Zadatak 5 – Ukupna cena kupovine
+Unesi cenu proizvoda i količinu.
+Ako ukupna cena prelazi 5000 RSD, korisnik dobija popust od 10%.
+Prikaži konačnu cenu nakon popusta (ako je primenjen).
+
+---
+
+Zadatak 6 – Časovna zona
+Unesi broj časova u lokalnom vremenu i željenu vremensku zonu (razliku u satima, može biti pozitivna ili negativna).
+Prikaži koliko je sati u željenoj vremenskoj zoni.
+
+Na primer:
+
+Unos: 14, -3 → "U željenoj vremenskoj zoni je 11h."
+Unos: 22, +5 → "U željenoj vremenskoj zoni je 3h."
+Ako korisnik unese nevalidan broj časova (van opsega 0-23), ispiši: "Unesite validan broj časova (0-23)!".
+
