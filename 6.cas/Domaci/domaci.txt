@@ -1,0 +1,26 @@
+Zadatak 1 - Tablica mnozenja za broj 5
+Napisite petlju koja ispisuje tablicu mnozenja za broj 5 
+(npr. 5 * 1 = 5, 5 * 2 = 10, ...)
+
+---
+
+Zadatak 2 - Proizvod svih brojeva do 10
+Napisite petlju koja daje Proizvod svih brojeva do broja 10
+
+---
+
+Zadatak 3 - Svi prosti brojevi do 50
+Prosti brojevi su svi prirodni brojevi djeljivi bez ostatka 
+samo s brojem 1 i sami sa sobom, a veći od broja 1.
+
+---
+
+Zadatak 4 - Faktorijal broja
+Napiši program koji unosi broj n i računa faktorijal tog broja (n!).
+Faktorijal je proizvod svih brojeva od n(pocetnog broja) do 1.
+
+---
+
+Zadatak 5 - Obrnuti string - Pokusajte
+Napiši program koji unosi string i ispisuje ga u obrnutom redosledu.
+(npr: "JavaScript" → "tpircSavaJ") 
