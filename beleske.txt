@@ -1,0 +1,69 @@
+--- OPERATORI U JAVASCRIPTU (3. Cas) ---
+
+1. Aritmeticki operatori:
+Koriste se za izvođenje matematičkih operacija.
+
++ → sabiranje (npr. 2 + 2 → 4)
+- → oduzimanje (npr. 5 - 2 → 3)
+* → množenje (npr. 5 * 2 → 10)
+/ → deljenje (npr. 5 / 2 → 2.5)
+** → stepenovanje (npr. 2 ** 3 → 8)
+% → modul (ostatak pri deljenju, npr. 5 % 2 → 1)
+++ → inkrement (uvećava vrednost za 1)
+Post-inkrement (i++) vraća staru vrednost, a zatim povećava
+Pre-inkrement (++i) prvo povećava, pa vraća novu vrednost
+-- → dekrement (umanjuje vrednost za 1)
+Post-dekrement (i--) vraća staru vrednost, pa umanjuje
+Pre-dekrement (--i) prvo umanjuje, pa vraća novu vrednost
+
+---
+
+2. Operatori dodele vrednosti:
+Dodeljuju vrednosti promenljivama.
+
+= → dodela vrednosti (npr. a = 5)
++= → sabira i dodeljuje (npr. a += 2 je isto kao a = a + 2)
+-= → oduzima i dodeljuje (npr. b -= 2 isto kao b = b - 2)
+*= → množi i dodeljuje (npr. c *= 2 isto kao c = c * 2)
+/= → deli i dodeljuje (npr. d /= 2 isto kao d = d / 2)
+%= → modul i dodeljuje (npr. e %= 2 isto kao e = e % 2)
+**= → stepenovanje i dodeljuje (npr. f **= 2 isto kao f = f ** 2)
+
+---
+
+3. String operatori:
+
++ → koristi se za spajanje stringova (konkatenacija), npr. 'Moje ime je' + ' Edin' daje 'Moje ime je Edin'.
+Kada sabiramo string i broj, rezultat je string (npr. 3 + '5' → '35').
+Oduzimanje (-), množenje (*), deljenje (/) rade samo ako je string broj (npr. '5' - 3 → 2), inače vrate NaN.
+
+---
+
+4. Operatori poređenja:
+Koriste se za upoređivanje vrednosti i vraćaju true ili false.
+
+== → poređenje vrednosti (npr. '2' == 2 → true, jer ignoriše tip)
+=== → striktno poređenje (proverava i tip i vrednost, npr. '2' === 2 → false)
+!= → nejednakost po vrednosti (npr. 3 != 2 → true)
+!== → striktna nejednakost (npr. '2' !== 2 → true)
+> → veće (npr. 5 > 3 → true)
+< → manje (npr. 5 < 3 → false)
+>= → veće ili jednako (npr. 5 >= 5 → true)
+<= → manje ili jednako (npr. 5 <= 3 → false)
+
+---
+
+5. Logički operatori:
+Koriste se za rad sa true i false vrednostima.
+
+&& (AND) → vraća true ako su oba uslova tačna (npr. 5 > 3 && 2 > 1 → true).
+|| (OR) → vraća true ako je bar jedan uslov tačan (npr. 5 > 6 || 2 > 1 → true).
+! (NOT) → menja vrednost izraza (npr. !(5 > 4) → false).
+
+---
+
+6. Tip operatori:
+Koriste se za proveru tipa podataka.
+
+typeof → vraća tip podatka (npr. typeof 'Edin' → 'string').
+instanceof → proverava da li je objekat instanca određene klase (npr. niz instanceof Array → true).
