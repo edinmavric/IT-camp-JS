@@ -1,0 +1,60 @@
+1. Ternarni operator
+Zadatak:
+Napisati funkciju koja prima tri broja: a, b i c. Funkcija treba da vrati:
+
+"sva tri su jednaka" ako su sva tri broja ista,
+"dva broja su jednaka" ako su dva broja ista,
+"svi su različiti" ako su svi različiti.
+Koristi samo ternarni operator (? :), bez if ili switch struktura.
+
+---
+
+2. Switch Case - Konvertor valute
+Zadatak:
+Napisati program koji konvertuje iz jedne valute u drugu.
+
+Program prima iznos i oznaku valute (EUR, USD, GBP, CHF, RSD).
+Program konvertuje iz RSD u neku drugu valutu i obrnuto.
+Ako je uneta nepoznata valuta, ispisati "Nepoznata valuta".
+
+---
+
+3. If
+Zadatak:
+Napisati funkciju koja proverava da li je uneti broj savršeni broj (broj koji je jednak sumi svojih delilaca, isključujući njega samog).
+
+Primer: 6 je savršen broj jer 
+6
+=
+1
++
+2
++
+3
+6=1+2+3.
+Koristiti samo if, bez switch ili ternarnog operatora.
+
+- Proguglati o zadatku -
+
+---
+
+4. For petlja
+Zadatak:
+Napisati funkciju koja generiše Fibonacijev niz do n-tog elementa i vraća niz brojeva.
+
+Primer: Ako je n = 7, funkcija treba da vrati [0, 1, 1, 2, 3, 5, 8].
+Koristiti samo for petlju.
+
+- Proguglati o zadatku -
+
+---
+
+5. Ugnježdena petlja
+Zadatak:
+Napisati funkciju koja iscrtava pravougaonik od zvezdica (*), širine w i visine h.
+
+Primer za w = 5, h = 3
+*****
+*****
+*****
+Koristiti ugnježdene for petlje.
