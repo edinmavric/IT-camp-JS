@@ -1,0 +1,13 @@
+1. Rekreacija isInteger() funkcije koristeci petlje i if-ove
+
+2. Rekreacija Math.abs() funkcije koristeci petlje i if-ove
+
+3. Rekreacija Math.sqrt() funkcije koristeci petlje i if-ove
+
+4. Napravite generator broja izmedju 1 i 100 koji nije 7 ili 13
+
+5. Rekreacija charAt() I indexOf()
+
+6. Rekreacija propertija length
+
+PROBAJTE Math.round() ili Math.ceil() ili Math.floor() ili Math.trunc() rekreirati.
