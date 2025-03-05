@@ -1,0 +1,69 @@
+1. Provera broja
+Napiši funkciju isPositiveNumber(num), koja prima broj i:
+Ako je broj pozitivan, vraća "Broj je pozitivan"
+Ako je broj negativan, vraća "Broj je negativan"
+Ako je 0, vraća "Broj je nula"
+
+console.log(isPositiveNumber(10)); // "Broj je pozitivan"
+console.log(isPositiveNumber(-5)); // "Broj je negativan"
+console.log(isPositiveNumber(0)); // "Broj je nula"
+
+---
+
+2. Brojač samoglasnika
+Napiši funkciju brojSamoglasnika(str), koja prima string i 
+vraća broj samoglasnika (a, e, i, o, u).
+
+console.log(brojSamoglasnika("hello")); // 2
+console.log(brojSamoglasnika("javascript")); // 3
+console.log(brojSamoglasnika("xyz")); // 0
+
+--- 
+
+3. Najveći i najmanji broj
+Napiši funkciju minMax(), koja prima opcioni broj parametara
+brojeva i vraća najveći i najmanji broj.
+
+console.log(minMax(3, 5, 1, 9, 2)); // min: 1, max: 9
+console.log(minMax(-10, -3, -20, 0)); // min: -20, max: 0
+
+---
+
+4. Provera anagrama
+Napiši funkciju isAnagram(str1, str2), koja proverava da li su 
+dva stringa anagrami (da imaju ista slova u različitom rasporedu).
+
+console.log(isAnagram("listen", "silent")); // true
+console.log(isAnagram("hello", "world")); // false
+console.log(isAnagram("anagram", "nagaram")); // true
+
+---
+
+5. FizzBuzz
+Napiši funkciju fizzBuzz(n), koja ispisuje brojeve od 1 do n, ali:
+
+Ako je broj deljiv sa 3, ispisuje "Fizz".
+Ako je broj deljiv sa 5, ispisuje "Buzz".
+Ako je broj deljiv sa 3 i 5, ispisuje "FizzBuzz".
+Inače, ispisuje sam broj.
+
+console.log(fizzBuzz(15));
+/* 
+1
+2
+Fizz
+4
+Buzz
+Fizz
+7
+8
+Fizz
+Buzz
+11
+Fizz
+13
+14
+FizzBuzz
+*/
+
+---
