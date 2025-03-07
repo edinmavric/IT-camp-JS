@@ -1,0 +1,38 @@
+Zadatak 1: Prvi i poslednji element niza
+Napiši funkciju prviIPoslednji(niz), koja vraća novi niz koji sadrži samo prvi i poslednji element iz prosleđenog niza.
+
+console.log(prviIPoslednji([10, 20, 30, 40])); // [10, 40]
+console.log(prviIPoslednji(["sunce", "mesec", "zvezda"])); // ["sunce", "zvezda"]
+
+---
+
+Zadatak 2: Zamena određenog elementa u nizu
+Napravi funkciju zameniElement(niz, stariElement, noviElement), koja traži stariElement u nizu i menja ga sa noviElement. Ako stariElement ne postoji u nizu, funkcija treba vratiti nepromenjen niz.
+
+console.log(zameniElement([1, 2, 3, 4], 3, 99)); // [1, 2, 99, 4]
+console.log(zameniElement(["mačka", "pas", "ptica"], "pas", "konj")); // ["mačka", "konj", "ptica"]
+console.log(zameniElement([10, 20, 30], 40, 50)); // [10, 20, 30] (nema promene)
+console.log(zameniElement([], 10, 20)); // [] (nema promena)
+---
+
+Zadatak 3: Obrtanje stringova u nizu
+Napiši funkciju obrniStringove(niz), koja prima niz stringova i vraća novi niz gde su svi stringovi obrnuti.
+
+console.log(obrniStringove(["java", "script", "code"])); // ["avaj", "tpircs", "edoc"]
+console.log(obrniStringove(["Ana", "voli", "programiranje"])); // ["anA", "ilov", "ejranimargorp"]
+
+---
+
+Zadatak 4: Filtriranje brojeva iz niza
+Napiši funkciju samoBrojevi(niz), koja vraća novi niz koji sadrži samo brojeve iz prosleđenog niza.
+
+console.log(samoBrojevi([1, "hello", 3, true, 5, "world"])); // [1, 3, 5]
+console.log(samoBrojevi(["a", 10, "b", 20, 30])); // [10, 20, 30]
+
+---
+
+Zadatak 5: Pomeri sve nule na kraj niza
+Napiši funkciju pomeriNule(niz), koja uzima niz brojeva i pomera sve nule na kraj, dok ostali elementi ostaju u istom redosledu.
+
+console.log(pomeriNule([0, 1, 0, 3, 12])); // [1, 3, 12, 0, 0]
+console.log(pomeriNule([0, 0, 1, 2, 0, 3])); // [1, 2, 3, 0, 0, 0]
