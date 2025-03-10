@@ -1,0 +1,42 @@
+1. Napraviti od funkcije isBalanced sa casa da proverava da li je suma Pozitivnih i Negativnih brojeva jednaka nuli.
+
+---
+
+2. Sabiranje cifara broja
+Napiši funkciju koja prima ceo broj i vraća zbir njegovih cifara.
+
+console.log(sumDigits(123)); // 6 (1 + 2 + 3)
+console.log(sumDigits(9876)); // 30 (9 + 8 + 7 + 6)
+
+---
+
+3. Brojanje reči u stringu
+Napiši funkciju koja prima string i vraća broj reči u njemu (pretpostavi da su reči razdvojene razmakom).
+
+console.log(countWords("Ovo je primer recenice")); // 4
+console.log(countWords("JavaScript je mocan jezik")); // 4
+
+---
+
+4. Provera da li su svi brojevi u nizu parni
+Napiši funkciju koja proverava da li su svi brojevi u nizu parni.
+
+console.log(allEven([2, 4, 6, 8])); // true
+console.log(allEven([1, 2, 4, 6])); // false
+
+---
+
+5. Prebrojavanje pojavljivanja karaktera u stringu
+Napiši funkciju koja prima string i karakter, i vraća koliko puta se taj karakter pojavljuje u stringu.
+
+console.log(countCharacter("programiranje", "r")); // 3
+console.log(countCharacter("javascript", "a")); // 2
+
+6. Da li niz sadrži iste elemente kada se sortira?
+Napiši funkciju koja proverava da li su dva niza ista kada se sortiraju (isti elementi, ali ne nužno u istom redosledu).
+
+console.log(haveSameElements([1, 2, 3], [3, 2, 1])); // true
+console.log(haveSameElements([1, 2, 2], [2, 1, 1])); // false
+console.log(haveSameElements([5, 7, 9], [9, 5, 7])); // true
+
+Koristiti Google za stvari koje vas namuce.
