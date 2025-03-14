@@ -1,0 +1,29 @@
+1. Filtriranje parnih brojeva
+Napiši funkciju koja prima niz brojeva i vraća novi niz koji sadrži samo parne brojeve iz originalnog niza.
+
+2. Pronalaženje najčešćeg broja u nizu
+Napiši funkciju koja prima niz brojeva i vraća broj koji se pojavljuje najviše puta. Ako ima više takvih brojeva, vrati bilo koji od njih.
+
+3. Rotacija elemenata u nizu
+Napiši funkciju koja prima niz i broj pomeranja. Rotiraj niz udesno za zadati broj mesta i vrati novi niz.
+
+4. Formatiranje telefonskog broja
+Napiši funkciju koja prima niz od 10 brojeva (0-9) i vraća string u formatu telefonskog broja: "(XXX) XXX-XXXX".
+
+5. Provera palindroma u nizu
+Napiši funkciju koja prima niz brojeva i vraća true ako je niz isti kada se pročita unazad, inače vraća false.
+
+6. Zamena svih pojavljivanja broja u nizu
+Napiši funkciju koja prima niz brojeva, jedan ciljani broj i zamenski broj. Zameni sva pojavljivanja ciljanog broja u nizu zamenskim brojem i vrati novi niz.
+
+7. Prosek vrednosti u nizu
+Napiši funkciju koja prima niz brojeva i vraća aritmetičku sredinu (prosek) svih brojeva u nizu.
+
+8. Pronalazak dva broja koja daju zadati zbir
+Napiši funkciju koja prima niz brojeva i jedan ciljani zbir. Vrati prvi par brojeva iz niza čiji zbir daje ciljani broj. Ako takav par ne postoji, vrati null.
+
+9. Grupisanje brojeva po parnosti
+Napiši funkciju koja prima niz brojeva i vraća objekat sa dva svojstva: parni i neparni. Svako svojstvo treba da sadrži niz sa odgovarajućim brojevima.
+
+10. Pronalaženje drugog najmanjeg i drugog najvećeg broja u nizu
+Napiši funkciju koja prima niz brojeva i vraća drugi najmanji i drugi najveći broj u nizu kao niz sa dva elementa.
