@@ -1,0 +1,30 @@
+1. reduce() – Grupiši reči po prvim slovima
+Napiši funkciju koja grupiše reči po prvom slovu koristeći reduce(). Rezultat treba da bude objekat gde su ključevi prva slova, a vrednosti nizovi reči koje počinju tim slovom.
+
+const words = ["banana", "jabuka", "jagoda", "kivi", "avokado", "breskva"];
+
+2. filter() – Izdvajanje email adresa sa određenim domenom
+Napiši funkciju koja izdvaja samo email adrese sa domenom "gmail.com" koristeći filter().
+
+const emails = [
+    "ivan@gmail.com",
+    "ana@yahoo.com",
+    "marko@gmail.com",
+    "sofija@hotmail.com",
+    "jovan@gmail.com"
+];
+
+3. map() – Pretvaranje niza imena u inicijale
+Napiši funkciju koja koristi map() da od niza imena kreira niz inicijala.
+
+const names = ["Marko Petrovic", "Jovana Nikolic", "Stefan Jovanovic"];
+
+4. map() – Formatiranje cena proizvoda
+Napiši funkciju koja pomoću map() formatira niz cena tako da dodaje znak € na kraj svake cene i zaokružuje ih na dve decimale.
+
+const prices = [19.99, 5, 23.5, 100.1];
+
+5. forEach() – Računanje dužine svake reči u nizu
+Napiši funkciju koja pomoću forEach() računa i ispisuje dužinu svake reči iz niza.
+
+const words = ["avion", "automobil", "programiranje", "kuca"];
