@@ -1,0 +1,27 @@
+1. some()
+Neka je dat niz godina. Proveriti da li postoji bar jedna osoba mlađa od 10 godina.
+Dat je niz rečenica. Proveriti da li postoji bar jedna rečenica koja počinje velikim slovom.
+Niz sadrži brojeve temperature tokom nedelje. Proveriti da li je barem jedan dan temperatura bila ispod nule.
+Dat je niz stringova koji predstavljaju lozinke. Proveriti da li postoji lozinka kraća od 6 karaktera.
+Niz proizvoda sadrži objekte sa nazivom i cenom. Proveriti da li postoji proizvod čija cena iznosi tačno 0.
+
+2. every()
+Neka je dat niz godina. Proveriti da li su sve godine veće od 2000.
+Dat je niz rečenica. Proveriti da li sve rečenice imaju bar jedan razmak.
+Niz sadrži brojeve temperature tokom nedelje. Proveriti da li su sve temperature pozitivne.
+Dat je niz stringova koji predstavljaju korisnička imena. Proveriti da li sva korisnička imena sadrže bar jedno slovo.
+Niz proizvoda sadrži objekte sa nazivom i cenom. Proveriti da li su svi proizvodi skuplji od 10.
+
+3. slice()
+Dat je niz od 20 brojeva. Izdvojiti poslednjih 6 brojeva bez menjanja originalnog niza.
+Dat je niz od 10 imena. Napraviti novi niz koji sadrži samo imena od trećeg do osmog indeksa.
+Dat je niz brojeva. Izdvojiti prvi i poslednji element u novi niz koristeći slice().
+Dat je niz rečenica. Napraviti novi niz koji sadrži samo prve tri rečenice.
+Dat je niz objekata sa informacijama o studentima. Napraviti novi niz koji sadrži samo prvih pet studenata.
+
+4. splice()
+Dat je niz brojeva. Izbaciti sve elemente na parnim indeksima.
+Dat je niz imena. Ukloniti treće i četvrto ime i dodati umesto njih dva nova imena.
+Dat je niz brojeva. Na peto mesto ubaciti broj 1000 bez brisanja drugih elemenata.
+Dat je niz stringova. Ukloniti sve reči koje počinju slovom „a“.
+Dat je niz sa imenima boja. Prvu boju promeniti u „Srebrna“, a poslednju u „Zlatna“.
