@@ -1,0 +1,43 @@
+Uraditi i zadatke sa casa koji nisu zavrseni na casu
+
+1. map()
+Napiši funkciju koja prima niz rečenica i vraća niz gde je svaka rečenica napisana obrnutim redom slova (ne samo reči, već i slova unutar reči).
+Napiši funkciju koja prima niz brojeva i vraća niz gde su svi brojevi kvadrirani i pretvoreni u stringove.
+
+2. reduce()
+Napiši funkciju koja izračunava maksimalni broj uzastopnih istih elemenata u nizu.
+Napiši funkciju koja prima niz reči i vraća najdužu reč u nizu.
+
+3. filter()
+Napiši funkciju koja iz niza stringova izbacuje sve reči koje sadrže bar jedno slovo 'z'.
+Napiši funkciju koja vraća sve proste brojeve iz niza.
+
+4. forEach()
+Napiši funkciju koja ispisuje indeks svakog neparnog broja u nizu.
+Napiši funkciju koja prolazi kroz niz objekata {ime, godine} i dodaje svojstvo status sa vrednošću "mlad" ako je starost manja od 30, inače "odrasli".
+
+5. slice()
+Napiši funkciju koja iz niza uzima samo srednjih 5 elemenata (ako niz ima manje od 5 elemenata, uzeti ceo niz).
+Napiši funkciju koja iz stringa uklanja prvih i poslednjih 5 karaktera.
+
+6. splice()
+Napiši funkciju koja iz niza uklanja sve parne brojeve i vraća preostali niz.
+Napiši funkciju koja u niz imena dodaje "Dr." na početak svakog imena koristeći samo splice().
+
+7. some()
+Napiši funkciju koja proverava da li postoji broj u nizu koji je stepen broja 2.
+Napiši funkciju koja proverava da li postoji reč u nizu koja je duža od 15 karaktera.
+
+8. every()
+Napiši funkciju koja proverava da li svi stringovi u nizu počinju velikim slovom.
+Napiši funkciju koja proverava da li su svi brojevi u nizu savršeni kvadrati.
+
+9. sort()
+Napiši funkciju koja sortira niz brojeva tako da svi brojevi deljivi sa 3 budu na početku, ali sortirani rastuće, a ostali brojevi na kraju, takođe rastuće.
+
+10.
+Uklanjanje duplikata iz niza
+Napiši funkciju koja uklanja duplikate iz niza
+
+Anagram proveravač
+Napiši funkciju koja proverava da li su dva stringa anagrami (sadrže iste karaktere u bilo kom redosledu).
