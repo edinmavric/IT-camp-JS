@@ -1,0 +1,37 @@
+Za svaki zadatak, napiši kod i objasni šta se dešava u komentaru.
+
+1. Kreiranje i pristup objektima
+Napravi objekat student sa svojstvima: ime, prezime, godine, prosek.
+Prikaži ime i prezime koristeći oba načina pristupa (objectName.propertyName i objectName["propertyName"]).
+
+2. Dodavanje metoda u objekat
+Dodaj objektu student metodu punoIme, koja vraća puno ime studenta.
+Pozovi tu metodu i prikaži rezultat u konzoli.
+
+3. Mutable objekti
+Napravi novi objekat car sa svojstvima marka, model, godiste.
+Napravi promenljivu auto i dodeli joj vrednost car.
+Promeni model i godište kroz auto.
+Prikaži car i auto u konzoli i objasni rezultat.
+
+4. Brisanje svojstava iz objekta
+Napravi objekat telefon sa svojstvima brend, model, cena.
+Obriši svojstvo cena koristeći delete.
+Prikaži objekat u konzoli.
+
+5. Konvertovanje objekta u niz
+Napravi objekat knjiga sa svojstvima naslov, autor, godinaIzdanja.
+Konvertuj vrednosti objekta u niz i prikaži rezultat u konzoli.
+
+6. Dodavanje metoda u objekat
+Napravi objekat racunar sa svojstvima procesor, ram, graficka, godinaProizvodnje.
+Dodaj metodu info, koja vraća string sa informacijama o računaru.
+Pozovi metodu i prikaži rezultat u konzoli.
+
+7. Deep kopija objekta
+Napravi objekat korisnik sa svojstvima ime, prezime, email.
+Napravi deep kopiju i promeni email u kopiji.
+Prikaži oba objekta i vidi da li se email promenio u originalnom objektu.
+
+8. Iteracija kroz objekt
+Napravi bilo koji objekat i pomoću forEach metode ili for petlje ispiši sve vrednosti iz objekta korišćenjem Object.entries.
