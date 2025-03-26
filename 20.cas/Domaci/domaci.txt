@@ -1,0 +1,53 @@
+const student = {
+    ime: 'Marko',
+    prezime: 'Petrović',
+    godinaStudija: 2,
+    prosek: 8.5,
+    polozeniIspiti: ['Matematika', 'Programiranje', 'Algoritmi'],
+};
+
+Napraviti funkcije: 1. predstaviSe() koja ispisuje: Zdravo, ja sam ${ime} ${prezime} i student sam ${godinaStudija}. godine sa prosekom ${prosek}.
+                    2. dodajIspit(ispit) koja dodaje nove polozene ispite u niz vec polozenih.
+                    3. promeniProsek(noviProsek) koja menja stari prosek u novi.
+
+Zadatak 1:
+Koristeći call, predstavi novog studenta koristeći objekat ispod:
+
+const student2 = {
+    ime: 'Ana',
+    prezime: 'Jovanović',
+    godinaStudija: 3,
+    prosek: 9.2,
+    polozeniIspiti: ['Baze Podataka', 'Računarske Mreže'],
+};
+
+--------
+
+Zadatak 2:
+Koristi apply da dodaš više položenih ispita studentu odjednom.
+
+const noviIspiti = ['Web Programiranje', 'Operativni Sistemi'];
+Dodaj ove ispite studentu2 koristeći apply.
+
+--------
+
+Zadatak 3:
+Koristi bind da kreiraš novu funkciju za promenu proseka studentu1 i promeni mu prosek na 9.0.
+
+----------------
+
+1. Sortiraj niz studenata po proseku u opadajućem redosledu.
+const studenti = [
+    { ime: 'Milan', prosek: 7.8 },
+    { ime: 'Sara', prosek: 8.9 },
+    { ime: 'Ivana', prosek: 9.5 },
+    { ime: 'Nikola', prosek: 6.4 },
+];
+
+2. Filtriraj samo studente sa prosekom iznad 8.0.
+
+3. Pronađi studenta sa najvišim prosekom.
+
+4. Izračunaj ukupni prosek svih studenata pomoću reduce metode.
+
+5. Kreiraj novi niz u kojem su svi proseci studenata uvećani za 10% (maksimalna vrednost proseka ostaje 10.0).
