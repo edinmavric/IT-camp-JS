@@ -1,0 +1,51 @@
+- Zadaci za map
+Transformacija u gornji case
+Imate niz reči:
+const words = ["apple", "banana", "cherry", "date"];
+Koristeći map, napravite novi niz gde će sve reči biti velikim slovima.
+
+Dužina svake reči
+Koristeći map, pretvorite niz reči u niz njihovih dužina.
+
+- Zadaci za reduce
+Zbir svih brojeva u nizu
+Imate niz:
+const numbers = [3, 7, 2, 9, 5];
+Koristeći reduce, izračunajte zbir svih brojeva.
+
+Brojanje učestalosti slova
+Imate string:
+const text = "banana";
+Koristeći reduce, napravite objekat gde će ključ biti slovo, a vrednost broj pojavljivanja u stringu.
+Primer izlaza: { b: 1, a: 3, n: 2 }
+
+- Zadaci za filter
+Filtriranje parnih brojeva
+Iz niza [12, 3, 7, 18, 9, 21, 30] izdvojite samo parne brojeve.
+Pronalazak dužih reči
+
+Iz niza reči [ "dog", "elephant", "cat", "giraffe"] filtrirajte samo reči duže od 3 slova.
+
+- Zadaci za slice i splice
+Kopiranje dela niza
+Imate niz:
+const colors = ["red", "green", "blue", "yellow", "black"];
+Koristeći slice, izdvojite prve tri boje.
+
+Izmena niza pomoću splice
+Iz prethodnog niza obrišite poslednje dve boje i umesto njih dodajte "white" i "purple".
+
+- Zadaci za toSorted, toReversed, toSpliced
+Sortiranje brojeva opadajuće
+Imate niz:
+const scores = [88, 72, 95, 60, 83];
+Koristeći toSorted, sortirajte brojeve od najvećeg ka najmanjem.
+
+Obrtanje reči u nizu
+Koristeći toReversed, obrnite redosled elemenata u nizu:
+const animals = ["lion", "tiger", "bear", "wolf"];
+Uklanjanje elemenata iz niza
+
+Imate niz:
+const fruits = ["apple", "banana", "cherry", "date", "fig"];
+Koristeći toSpliced, uklonite treći element iz niza i dodajte "grape".
