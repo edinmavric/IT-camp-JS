@@ -1,0 +1,3 @@
+Pokusati da se zavrse ostali zadaci za domaci.
+Obavezno procitati na internetu sta je to DOM (Document Object Model u JavaScript-u).
+Ko ne procita nece se snaci na sledecem casu!!!
