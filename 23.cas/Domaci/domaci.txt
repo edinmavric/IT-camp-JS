@@ -1,0 +1,59 @@
+Domaći zadatak iz JavaScript-a: Interaktivna lista
+
+Zadatak:
+Na osnovu datog HTML fajla, uz pomoć JavaScript-a implementirati sledeće funkcionalnosti:
+
+HTML struktura:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Interaktivna lista</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Moja lista zadataka</h1>
+
+  <ul id="my-list">
+    <li>Zadatak 1</li>
+    <li>Zadatak 2</li>
+    <li>Zadatak 3</li>
+  </ul>
+
+  <button id="mark-all">Označi sve kao završene</button>
+  <button id="delete-last">Obriši poslednji</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+/* style.css */
+.done {
+  text-decoration: line-through;
+  color: gray;
+}
+
+Šta treba da uradiš u script.js fajlu:
+
+Kada korisnik klikne na bilo koji <li> zadatak, doda se klasa "done" ako ona već nije dodata.
+
+Kada korisnik klikne na dugme "Označi sve kao završene", svi zadaci u listi dobijaju klasu "done".
+
+Kada korisnik klikne na dugme "Obriši poslednji", poslednji <li> iz liste se briše.
+
+Saveti:
+
+Koristi document.querySelectorAll() za selekciju više elemenata.
+
+Koristi element.classList.add("done") za dodavanje klase.
+
+Koristi element.remove() za brisanje elementa iz DOM-a.
+
+Ako ti je potrebno, koristi if provere da ne dođe do greške.
+
+Dodaj dugme "Resetuj" koje vraća sve zadatke u početno stanje (uklanja klasu done).
+
+Dodaj brojač koliko je zadataka završeno.
+
+Srećno!
