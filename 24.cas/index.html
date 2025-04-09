@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>My Web Playground</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <h1>Welcome to My Web Playground</h1>
+
+        <button id="changeTextBtn">Click me!</button>
+        <p id="textTarget">This is some text.</p>
+
+        <button id="toggleMode">Dark Mode</button>
+
+        <h2>Image Swapper</h2>
+        <img id="myImage" src="https://placehold.co/150" alt="Placeholder" />
+        <button id="swapImageBtn">Swap Image</button>
+
+        <h2>Live Text Counter</h2>
+        <textarea id="userInput" placeholder="Type something..."></textarea>
+        <p>Character count: <span id="charCount">0</span></p>
+
+        <!-- To Do lista
+            Imamo input, kada kliknemo enter dodamo value iz inputa kao li element 
+        -->
+
+        <input
+            id="to-do-input"
+            type="text"
+            placeholder="Add something to-do list..."
+        />
+        <ul id="to-do-list"></ul>
+
+        <script src="script.js"></script>
+    </body>
+</html>

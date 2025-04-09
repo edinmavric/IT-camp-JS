@@ -1,0 +1,8 @@
+Pocinjete sa izradom velikog projekta.
+Funkcionalni vebsite sa DOM manipulacijom. Izrada treba da traje 1-2 meseca.
+Svakog ponedeljka mi pokazujete dokle ste stigli.
+
+Sto vise JavaScript logike, to je bolje za vas i vase znanje.
+Ne mora da se prate casovi, idite istrazujte citajte, ostvarujte ideje.
+
+Za domaci za petak zavrsiti domaci sa 23. casa!!!
