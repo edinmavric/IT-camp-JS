@@ -1,0 +1,12 @@
+Lista želja / Lista filmova za gledanje
+
+Opis:
+Korisnik unosi filmove koje želi da pogleda, može da ih obeleži kao "odgledano", izbriše, i sortira listu.
+
+Obeleženi filmovi idu u posebnu sekciju "Odgledano"
+
+Sortiranje po imenu ili datumu dodavanja
+
+Pretraga po nazivu
+
+Rok za domaci je Petak!
