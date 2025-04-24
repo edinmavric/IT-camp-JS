@@ -40,11 +40,26 @@ window.onload = () => {
 const cuvanje = document.getElementById('sacuvaj');
 
 cuvanje.addEventListener('click', () => {
-    const inputValue = document.getElementById('input').value;
-    localStorage.setItem('korisnik', inputValue);
-    const pozdrav = document.getElementById('pozdrav');
-    const imeIzInputa = localStorage.getItem('korisnik');
-    pozdrav.textContent = `Pozdrav, ${imeIzInputa}`;
+    if (input.value.trim() !== '') {
+        let inputValue = document.getElementById('input').value;
+        localStorage.setItem('korisnik', inputValue);
+        const pozdrav = document.getElementById('pozdrav');
+        const imeIzInputa = localStorage.getItem('korisnik');
+        pozdrav.textContent = `Pozdrav, ${imeIzInputa}`;
+        input.value = '';
+    }
+});
+
+const input = document.getElementById('input');
+input.addEventListener('keypress', event => {
+    if (event.key === 'Enter' && input.value.trim() !== '') {
+        let inputValue = input.value;
+        localStorage.setItem('korisnik', inputValue);
+        const pozdrav = document.getElementById('pozdrav');
+        const imeIzInputa = localStorage.getItem('korisnik');
+        pozdrav.textContent = `Pozdrav, ${imeIzInputa}`;
+        input.value = '';
+    }
 });
 
 // Dodati dugme "Odjavi se" koje brise korisnika iz localStorage-a. I dodati sessionStorage
