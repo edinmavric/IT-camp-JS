@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>DOM Vežba</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header>
+            <h1>DOM Manipulacija</h1>
+            <button id="toggleThemeBtn">Promeni temu</button>
+        </header>
+
+        <main>
+            <section id="add-item-section">
+                <h2>Dodaj stavku</h2>
+                <form id="itemForm">
+                    <input
+                        type="text"
+                        id="itemInput"
+                        placeholder="Unesi stavku..."
+                        required
+                    />
+                    <button type="submit">Dodaj</button>
+                </form>
+            </section>
+
+            <section id="item-list-section">
+                <h2>Lista stavki</h2>
+                <ul id="itemList">
+                    <!-- Dinamički dodavane stavke -->
+                </ul>
+            </section>
+
+            <section id="color-section">
+                <h2>Promeni boju sekcije</h2>
+                <input type="color" id="colorPicker" />
+                <button id="changeColorBtn">Primeni boju</button>
+            </section>
+
+            <section id="hide-section">
+                <h2>Prikrij/Otkloni sekciju</h2>
+                <button id="hideBtn">Sakrij/Otkloni</button>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 DOM Vežba</p>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
