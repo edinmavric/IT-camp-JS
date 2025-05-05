@@ -91,3 +91,30 @@ input.addEventListener('keypress', event => {
 });
 
 // Za users api endpoint prikazati  email korisnika, adresu grada i ime kompanije
+
+// Izmapirati prvih 6 karaktera sa apija i prikazati ih u HTML-u i stilizovati u CSS-u kao sto je na stranici:
+// https://rickandmortyapi.com/api/character/1,2,3,4,5,6
+// https://rickandmortyapi.com/
+
+async function loadCharacters() {
+    const response = await fetch(
+        'https://rickandmortyapi.com/api/character/1,2,3,4,5,6'
+    );
+    const characters = await response.json();
+
+    characters.forEach(char => {
+        const el = document.createElement('div');
+        el.innerHTML = `
+        <div>
+        <img src="${char.image}" alt="${char.name}" />
+        </div>
+        <div>
+        <h1>${char.name}</h1>
+        <p>${char.origin.name}</p>
+        </div>
+        `;
+        document.getElementById('div').appendChild(el);
+    });
+}
+
+loadCharacters();

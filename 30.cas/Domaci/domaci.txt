@@ -1,0 +1,6 @@
+https://pokeapi.co/api/v2/pokemon?limit=9
+
+Sa ovog API-ja prikazati imena pokemona i njihove slike, isto dodati opis koji je pokemon prvi deo evolucijske linije,
+koji je drugi i koji treci (npr. Charmander je prvi, Charmeleon je drugi i Charizard je treci).
+
+To uraditi za svih devet pokemona i napraviti stranicu koja ce izgledati lepo sa CSS-om.
