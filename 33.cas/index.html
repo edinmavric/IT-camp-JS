@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini Social Media</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Mini Social Media</h1>
+      <form id="post-form">
+        <input type="text" id="post-title" placeholder="Post title" required />
+        <textarea
+          id="post-body"
+          placeholder="What's on your mind?"
+          required
+        ></textarea>
+        <button type="submit">Post</button>
+      </form>
+      <div id="posts-container"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
